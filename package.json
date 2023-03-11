@@ -7,7 +7,7 @@
     "start": "node src/index.js"
   },
   "keywords": [],
-  "author": "yashsharma205@gmail.com",
+  "author": "suddala.rajukumar123@gmail.com",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
