@@ -1,6 +1,6 @@
 FROM node:10.16.3-alpine
 
-LABEL authors="srkmsk  <suddala.rajukumar123@gmail.com>"
+LABEL authors="srkmsk <suddala.rajukumar123@gmail.com>"
 
 RUN mkdir /app
 WORKDIR /app
