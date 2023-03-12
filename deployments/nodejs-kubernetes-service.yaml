@@ -11,8 +11,8 @@ metadata:
 spec:
   type: LoadBalancer
   ports:
-    - name: "8099"
-      port: 8099
+    - name: "8095"
+      port: 8095
       targetPort: 80
   selector:
     io.kompose.service: nodejs-kubernetes

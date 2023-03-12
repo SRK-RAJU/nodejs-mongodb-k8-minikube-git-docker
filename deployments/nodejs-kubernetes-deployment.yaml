@@ -29,7 +29,7 @@ spec:
               value: mongodb://nodejs-kubernetes-mongodb:27017/nodejs-kubernetes
             - name: PORT
               value: "80"
-          image: yasharma6121991/local-nodejs-kubernetes:5
+          image: srkmsk/local-nodejs-kubernetes:5
           name: nodejs-kubernetes
           # imagePullPolicy: Never
           ports:
