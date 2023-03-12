@@ -10,6 +10,6 @@ RUN yarn install
 
 COPY src ./src
 
-EXPOSE 87
+EXPOSE 86
 
 CMD ["node", "src"]
