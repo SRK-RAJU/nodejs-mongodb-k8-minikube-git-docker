@@ -3,10 +3,10 @@ services:
   nodejs-kubernetes:
     image: srkmsk/local-nodejs-kubernetes:5
     environment:  
-      PORT: 80
+      PORT: 87
       MONGO_DB_URL: mongodb://nodejs-kubernetes-mongodb:27017/nodejs-kubernetes
     ports:
-      - 8099:80
+      - 8199:87
     depends_on:
       - nodejs-kubernetes-mongodb
 
