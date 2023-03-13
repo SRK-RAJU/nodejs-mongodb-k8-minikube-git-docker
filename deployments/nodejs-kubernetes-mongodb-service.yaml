@@ -11,8 +11,8 @@ metadata:
 spec:
   type: NodePort
   ports:
-    - name: "27017"
-      port: 27017
+    - name: "23017"
+      port: 23017
       targetPort: 27017
   selector:
     io.kompose.service: nodejs-kubernetes-mongodb
