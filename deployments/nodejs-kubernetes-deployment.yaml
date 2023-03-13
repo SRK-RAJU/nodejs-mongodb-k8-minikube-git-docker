@@ -28,12 +28,12 @@ spec:
             - name: MONGO_DB_URL
               value: mongodb://nodejs-kubernetes-mongodb:27017/nodejs-kubernetes
             - name: PORT
-              value: "82"
+              value: "80"
           image: srkmsk/local-nodejs-kubernetes:5
           name: nodejs-kubernetes
           # imagePullPolicy: Never
           ports:
-            - containerPort: 82
+            - containerPort: 80
           resources: {}
       restartPolicy: Always
 status: {}
