@@ -33,7 +33,7 @@ spec:
           image: mongo:4.2
           name: nodejs-kubernetes-mongodb
           ports:
-            - containerPort: 23017
+            - containerPort: 27017
           resources: {}
           volumeMounts:
             - mountPath: /data/db

@@ -13,7 +13,7 @@ spec:
   ports:
     - name: "8099"
       port: 8099
-      targetPort: 82
+      targetPort: 80
   selector:
     io.kompose.service: nodejs-kubernetes
 status:
